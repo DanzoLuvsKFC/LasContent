@@ -1,5 +1,6 @@
 body {
-    background-color: #c9c9c9;
+    margin: 0;
+    background-color: #cacaca;
 }
 
 .firstsection{ 
@@ -9,10 +10,38 @@ body {
     height: 100vh;
 }
 
+.secondsection{ 
+    background-color: #022ddc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.thirdsection{ 
+    background-color: #cacaca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
 h1 {
-    font-family: Satoshi;
+    font-family: "Satoshi";
     color: aliceblue;
     font-size: 200px;
+}
+
+.rectangle{
+    top: 200px;
+    height: 375px;
+    width: 350px;
+    background-color: #022ddc;
+    color: #022ddc;
+    position: absolute;
+    z-index: -10;
 }
 
 @font-face {
