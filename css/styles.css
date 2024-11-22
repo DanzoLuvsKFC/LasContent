@@ -52,6 +52,7 @@ h1 {
     list-style: none;
     z-index: 10;
     transition: color 0.3s ease, opacity 0.3s ease;
+   
 }
 
 .bottom-left-nav li{
@@ -65,6 +66,15 @@ h1 {
     align-items: center;
     height: 100vh;
     width: 100%;
+    
+}
+
+.container{
+    border: #181818 solid;
+    border-width: 2px;
+    height: 100%;
+    width: 400px;
+    background-color: #cacaca;
 }
 
 .thirdsection {

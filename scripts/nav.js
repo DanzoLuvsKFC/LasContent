@@ -9,6 +9,7 @@ const navItems = [
 const createNavLinks = () => {
     const nav = document.querySelector('.bottom-left-nav');
     const ul = document.createElement('ul');
+    
 
     navItems.forEach(item => {
         const li = document.createElement('li');
@@ -41,23 +42,27 @@ const updateActiveLink = () => {
 
     // Update link styles
     links.forEach((link, index) => {
-        if (activeSection === 0 && index === 0) {
-            // In the first section, make the first link fully visible (opacity = 1) and blue
-            link.style.opacity = 1;
-            link.style.color = "#022ddc"; // Blue color for the active first link
-        } else if (index === activeSection) {
-            // For other sections, highlight the active link with full opacity and blue color
-            link.style.opacity = 1;
-            link.style.color = "aliceblue"; // Blue color for the active link
-        } else {
-            // For inactive links
-            link.style.opacity = 0.5; // Dim inactive links
-            if (activeSection === 0) {
-                // In the first section, make inactive links a dimmed blue
-                link.style.color = "#022ddc"; // Dimmed blue color
+        if (activeSection === 2) {
+            // In the third section
+            if (index === activeSection) {
+                // Highlight the active link with full opacity and white color
+                link.style.opacity = 1;
+                link.style.color = "aliceblue"; // White color for the active link
             } else {
-                // For other sections, use the dimmed aliceblue color
-                link.style.color = "aliceblue";
+                // Dim inactive links but keep them white
+                link.style.opacity = 0.5;
+                link.style.color = "aliceblue"; // Dimmed white color
+            }
+        } else {
+            // In the first or second section
+            if (index === activeSection) {
+                // Highlight the active link with full opacity and blue color
+                link.style.opacity = 1;
+                link.style.color = "#022ddc"; // Blue color for the active link
+            } else {
+                // Dim inactive links but keep them blue
+                link.style.opacity = 0.5;
+                link.style.color = "#022ddc"; // Dimmed blue color
             }
         }
     });
@@ -67,7 +72,7 @@ const updateActiveLink = () => {
     if (activeSection === 0) {
         nav.style.color = "#022ddc"; // Color for section 1
     } else if (activeSection === 1) {
-        nav.style.color = "aliceblue"; // Color for section 2
+        nav.style.color = "022ddc"; // Color for section 2
     } else if (activeSection === 2) {
         nav.style.color = "aliceblue"; // Color for section 3
     }
@@ -79,3 +84,4 @@ document.addEventListener('DOMContentLoaded', () => {
     updateActiveLink();
     window.addEventListener('scroll', updateActiveLink); // Update on scroll
 });
+
