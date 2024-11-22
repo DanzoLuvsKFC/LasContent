@@ -31,8 +31,8 @@ h1 {
 }
 
 .bottom-left-nav {
-    position: absolute;
-    bottom: 1px;
+    position: fixed;
+    bottom: -25px;
     left: 30px;
     padding: 10px;
     border-radius: 8px;
@@ -41,31 +41,21 @@ h1 {
     font-size: 30px;
     font-family: 'Satoshi';
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    list-style: none;
 }
 
-.bottom-left-nav, a{
+.bottom-left-nav, a, ul{
     padding: 5px;
     text-decoration: none;
-    color: #022ddc;
-    
+    color: aliceblue;
+    list-style: none;
+    z-index: 10;
+    transition: color 0.3s ease, opacity 0.3s ease;
 }
 
-
-.bottom-left-nav button {
-    background: none;
-    border: 1px solid white;
-    color: white;
-    padding: 5px 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.bottom-left-nav button:hover {
-    background-color: white;
-    color: black;
+.bottom-left-nav li{
+    margin-top: 10px;
 }
 
 .secondsection {
