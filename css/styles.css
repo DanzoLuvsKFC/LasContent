@@ -45,17 +45,19 @@ h1 {
     list-style: none;
 }
 
-.bottom-left-nav, a, ul{
+.bottom-left-nav,
+a,
+ul {
     padding: 5px;
     text-decoration: none;
     color: aliceblue;
     list-style: none;
     z-index: 10;
     transition: color 0.3s ease, opacity 0.3s ease;
-   
+
 }
 
-.bottom-left-nav li{
+.bottom-left-nav li {
     margin-top: 10px;
 }
 
@@ -66,15 +68,55 @@ h1 {
     align-items: center;
     height: 100vh;
     width: 100%;
-    
+
 }
 
-.container{
+.container {
+    position: relative;
     border: #181818 solid;
     border-width: 2px;
     height: 100%;
     width: 400px;
     background-color: #cacaca;
+}
+
+.container:hover {
+    background-color: #022ddc;
+    transition: background-color 0.5s ease;
+}
+
+.container:hover .containernumber {
+    color: aliceblue;
+    transition: color 0.3s ease,
+}
+
+.containertext {
+    position: absolute;
+    left: 41px;
+    top: 300px;
+    color: aliceblue;
+    font-family: "Satoshi";
+    font-size: 65px;
+}
+
+.containernumber {
+    position: absolute;
+    left: 41px;
+    top: 100px;
+    color: #022ddc;
+    font-family: "Satoshi";
+    font-size: 65px;
+}
+
+
+
+.containertext1 {
+    position: absolute;
+    left: 41px;
+    top: 300px;
+    color: aliceblue;
+    font-family: "Satoshi";
+    font-size: 65px;
 }
 
 .thirdsection {
