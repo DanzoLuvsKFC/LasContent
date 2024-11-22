@@ -1,31 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: #cacaca;
 }
 
-.firstsection{ 
+.firstsection {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-
-.secondsection{ 
-    background-color: #022ddc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-}
-
-.thirdsection{ 
-    background-color: #cacaca;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
 }
 
 h1 {
@@ -34,7 +20,7 @@ h1 {
     font-size: 200px;
 }
 
-.rectangle{
+.rectangle {
     top: 200px;
     height: 375px;
     width: 350px;
@@ -44,8 +30,88 @@ h1 {
     z-index: -10;
 }
 
+.bottom-left-nav {
+    position: absolute;
+    bottom: 1px;
+    left: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: 'Satoshi';
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bottom-left-nav, a{
+    padding: 5px;
+    text-decoration: none;
+    color: #022ddc;
+}
+
+.bottom-left-nav button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bottom-left-nav button:hover {
+    background-color: white;
+    color: black;
+}
+
+.secondsection {
+    background-color: #022ddc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.thirdsection {
+    background-color: #022ddc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.bio {
+    font-family: "Satoshi";
+    color: aliceblue;
+    position: absolute;
+    font-size: 148px;
+    top: 0.1rem;
+    z-index: 2;
+}
+
+.recto {
+    top: 90px;
+    left: 545px;
+    height: 300px;
+    width: 420px;
+    background-color: #cacaca;
+    color: #cacaca;
+    position: absolute;
+    z-index: 1;
+}
+
+.white-word {
+    color: #022ddc;
+}
+
+
+
 @font-face {
     font-family: "Satoshi";
     src: url('../fonts/Satoshi-Bold.otf') format('opentype');
 }
-
