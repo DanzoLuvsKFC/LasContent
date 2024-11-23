@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const images = [
-        '/LasContent/images/Puddles.png', 
+        'https://danzoluvskfc.github.io/LasContent/images/Puddles.png', 
         '/LasContent/images/ZEKE ZEKE.png',
         '/LasContent/images/SKATE.png',
         '/images/shades.png',
