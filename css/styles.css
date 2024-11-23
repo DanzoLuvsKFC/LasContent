@@ -82,7 +82,7 @@ h1 {
 
 .secondsection {
     position: relative;
-    background-color: #022ddc;
+    background-color: #cacaca;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,13 +91,12 @@ h1 {
 
 }
 
-.container {
+/* .container {
     position: relative;
-    border: #181818 solid;
+    border: aliceblue solid;
     border-width: 2px;
     height: 100%;
     width: 400px;
-    background-color: #cacaca;
 }
 
 .container:hover {
@@ -135,8 +134,93 @@ h1 {
     color: aliceblue;
     font-family: "Satoshi";
     font-size: 65px;
+} */
+
+.container, .container1, .container2, .container3 {
+    position: relative;
+    border: 2px solid aliceblue;
+    height: 100%;
+    width: 400px;
+    background-color: #cacaca;
+    /* Removed opacity from here */
 }
 
+.container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/WIKPIK.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+    /* Initial opacity set to 0 */
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    
+    /* Ensure the background doesn't affect other content */
+    pointer-events: none;
+}
+
+.container:hover::after {
+    /* Gradually make the background image visible */
+    opacity: 1;
+}
+
+.container1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/KLEP.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+    /* Initial opacity set to 0 */
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    
+    /* Ensure the background doesn't affect other content */
+    pointer-events: none;
+}
+
+.container1:hover::after {
+    /* Gradually make the background image visible */
+    opacity: 1;
+}
+
+.containertext, .containernumber {
+    position: absolute;
+    left: 41px;
+    color: aliceblue;
+    font-family: "Satoshi";
+    font-size: 65px;
+    transition: color 0.3s ease;
+}
+
+.containertext {
+    top: 300px;
+}
+
+.containernumber {
+    top: 100px;
+    color: #022ddc;
+}
+
+.containertext1 {
+    position: absolute;
+    left: 41px;
+    top: 300px;
+    color: aliceblue;
+    font-family: "Satoshi";
+    font-size: 65px;
+}
 /*-------------------------------------THIRD SECTION----------------------------------------------------------- */
 
 .thirdsection {
