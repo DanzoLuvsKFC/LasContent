@@ -30,19 +30,15 @@ window.onload = () => {
     const socialMedias = [
         { 
             link: "https://www.facebook.com/Lamborghini", 
-            imgSrc: "https://danzoluvskfc.github.io/Commercial-Lambo/Images/facebook (1).png",  
-            altText: "Facebook"
+            imgSrc: "https://danzoluvskfc.github.io/LasContent/images/github.png",  
+            altText: "Github"
         },
         { 
             link: "https://www.instagram.com/lamborghini?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", 
-            imgSrc: "https://danzoluvskfc.github.io/Commercial-Lambo/Images/instagram.png",  
-            altText: "Instagram"
-        },
-        { 
-            link: "https://www.tiktok.com/@lamborghini?is_from_webapp=1&sender_device=pc", 
-            imgSrc: "https://danzoluvskfc.github.io/Commercial-Lambo/Images/tik.png",  
-            altText: "Tiktok"
+            imgSrc: "https://danzoluvskfc.github.io/LasContent/images/linkedin.png",  
+            altText: "LinkedIn"
         }
+        
         
     ];
 
