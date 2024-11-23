@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
         '/LasContent/images/Puddles.png', 
         '/LasContent/images/ZEKE ZEKE.png',
         '/LasContent/images/SKATE.png',
-        '/LasContent/images/shades.png',
-        '/LasContent/images/Handsome.png',
-        '/LasContent/images/4BALL.png',
-        '/LasContent/images/Beanie Boy.png',
-        '/LasContent/images/Crown.png',
+        '/LasContent/images/Puddles.png',
+        '/LasContent/images/Puddles.png',
+        '/LasContent/images/Puddles.png',
+        '/LasContent/images/Puddles.png',
+        '/LasContent/images/Puddles.png',
     ];
 
     let currentIndex = 0; // Start with the first image
