@@ -29,12 +29,12 @@ window.onload = () => {
     socialMediaDiv.style.marginTop = "10px";
     const socialMedias = [
         { 
-            link: "https://www.facebook.com/Lamborghini", 
+            link: "https://github.com/DanzoLuvsKFC", 
             imgSrc: "https://danzoluvskfc.github.io/LasContent/images/github.png",  
             altText: "Github"
         },
         { 
-            link: "https://www.instagram.com/lamborghini?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", 
+            link: "https://www.linkedin.com/in/mark-daniel-lasco-7ab7ab309/", 
             imgSrc: "https://danzoluvskfc.github.io/LasContent/images/linkedin.png",  
             altText: "LinkedIn"
         }
