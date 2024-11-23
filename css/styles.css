@@ -68,10 +68,10 @@ h1 {
 }
 
 .rectangle {
-    top: 200px;
-    height: 375px;
-    width: 350px;
-    background-color: #022ddc;
+    top: 165px;
+    height: 450px;
+    width: 425px;
+    /* background-color: #022ddc; */
     color: #022ddc;
     position: absolute;
     z-index: -10;
