@@ -142,7 +142,6 @@ h1 {
     height: 100%;
     width: 400px;
     background-color: #cacaca;
-    /* Removed opacity from here */
 }
 
 .container::after {
@@ -152,21 +151,16 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/images/WIKPIK.png'); 
+    background-image: url('/LasContent/images/WIKPIK.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    
-    /* Initial opacity set to 0 */
     opacity: 0;
     transition: opacity 1s ease-in;
-    
-    /* Ensure the background doesn't affect other content */
     pointer-events: none;
 }
 
 .container:hover::after {
-    /* Gradually make the background image visible */
     opacity: 1;
 }
 
@@ -177,21 +171,16 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/images/KLEP.png'); 
+    background-image: url('/LasContent/images/KLEP.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    
-    /* Initial opacity set to 0 */
     opacity: 0;
     transition: opacity 1s ease-in;
-    
-    /* Ensure the background doesn't affect other content */
     pointer-events: none;
 }
 
 .container1:hover::after {
-    /* Gradually make the background image visible */
     opacity: 1;
 }
 
