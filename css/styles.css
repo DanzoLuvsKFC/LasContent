@@ -1,3 +1,5 @@
+/*------------------------------------- MAIN BODY----------------------------------------------------------- */
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,28 +9,16 @@ body {
     background-color: #cacaca;
 }
 
-.firstsection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-h1 {
+@font-face {
     font-family: "Satoshi";
-    color: aliceblue;
-    font-size: 200px;
+    src: url('../fonts/Satoshi-Bold.otf') format('opentype');
 }
 
-.rectangle {
-    top: 200px;
-    height: 375px;
-    width: 350px;
-    background-color: #022ddc;
-    color: #022ddc;
-    position: absolute;
-    z-index: -10;
+p {
+    font-family: "Satoshi";
 }
+
+/*-------------------------------------NAV----------------------------------------------------------- */
 
 .bottom-left-nav {
     position: fixed;
@@ -61,7 +51,37 @@ ul {
     margin-top: 10px;
 }
 
+
+/*-------------------------------------FIRST SECTION----------------------------------------------------------- */
+
+.firstsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Satoshi";
+    color: aliceblue;
+    font-size: 200px;
+}
+
+.rectangle {
+    top: 200px;
+    height: 375px;
+    width: 350px;
+    background-color: #022ddc;
+    color: #022ddc;
+    position: absolute;
+    z-index: -10;
+}
+
+
+/*-------------------------------------SECOND SECTION----------------------------------------------------------- */
+
 .secondsection {
+    position: relative;
     background-color: #022ddc;
     display: flex;
     justify-content: center;
@@ -108,8 +128,6 @@ ul {
     font-size: 65px;
 }
 
-
-
 .containertext1 {
     position: absolute;
     left: 41px;
@@ -118,6 +136,8 @@ ul {
     font-family: "Satoshi";
     font-size: 65px;
 }
+
+/*-------------------------------------THIRD SECTION----------------------------------------------------------- */
 
 .thirdsection {
     background-color: #022ddc;
@@ -151,11 +171,4 @@ ul {
 
 .white-word {
     color: #022ddc;
-}
-
-
-
-@font-face {
-    font-family: "Satoshi";
-    src: url('../fonts/Satoshi-Bold.otf') format('opentype');
 }
