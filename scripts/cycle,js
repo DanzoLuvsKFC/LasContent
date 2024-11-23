@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const images = [
-        '/LasContent/images/Puddles.png', 
-        '/LasContent/images/ZEKE ZEKE.png',
-        '/LasContent/images/SKATE.png',
-        '/LasContent/images/shades.png',
-        '/LasContent/images/Handsome.png',
-        '/LasContent/images/4BALL.png',
-        '/LasContent/images/Beanie Boy.png',
-        '/LasContent/images/Crown.png',
+        'images/Puddles.png', 
+        'images/ZEKE ZEKE.png',
+        'images/SKATE.png',
+        'images/shades.png',
+        'images/Handsome.png',
+        'images/4BALL.png',
+        'images/Beanie Boy.png',
+        'images/Crown.png',
     ];
 
     let currentIndex = 0; // Start with the first image
