@@ -242,7 +242,7 @@ h1 {
     color: #cacaca;
     position: absolute;
     z-index: 1;
-    background-image: url('/images/pogi.jpeg');
+    background-image: url('/LasContent/images/pogi.jpeg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
