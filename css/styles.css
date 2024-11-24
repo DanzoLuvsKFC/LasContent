@@ -116,6 +116,22 @@ h1 {
     color: aliceblue;
     font-family: "Satoshi";
     font-size: 65px;
+    position: relative; /* Ensure the pseudo-element is positioned relative to this text */
+}
+
+.containertext::after {
+    content: ''; /* Creates the line */
+    position: absolute;
+    left: 10px;
+    bottom: -10px; /* Adjust the position of the line */
+    height: 4px; /* Thickness of the line */
+    width: 0; /* Start with no width */
+    background-color: aliceblue; /* Color of the line */
+    transition: width 0.5s ease; /* Smoothly expand the line */
+}
+
+.containertext:hover::after {
+    width: 100%; /* Line expands fully on hover */
 }
 
 .containernumber {
