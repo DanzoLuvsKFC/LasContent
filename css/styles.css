@@ -226,22 +226,42 @@ h1 {
     font-family: "Satoshi";
     color: aliceblue;
     position: absolute;
-    font-size: 148px;
-    top: 0.1rem;
+    font-size: 130px;
+    top: -2rem;
     z-index: 2;
+    left: 180px;
+    
 }
 
 .recto {
-    top: 90px;
-    left: 545px;
-    height: 300px;
+    top: 100px;
+    left: 910px;
+    height: 600px;
     width: 420px;
     background-color: #cacaca;
     color: #cacaca;
     position: absolute;
     z-index: 1;
+    background-image: url('/images/pogi.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .white-word {
-    color: #022ddc;
+    color: aliceblue;
+}
+
+.autobio {
+    position: absolute;
+    font-family: "Satoshi";
+    color: aliceblue;
+    position: absolute;
+    font-size: 19px;
+    top: 275px;
+    z-index: 2;
+    left: 230px;
+    max-width: 650px;
+    text-align: right;
+    
 }
