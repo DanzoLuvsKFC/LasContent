@@ -91,6 +91,8 @@ h1 {
 
 }
 
+/*-------------------------------------FIRST CONTAINER----------------------------------------------------------- */
+
 .container {
     position: relative;
     border: aliceblue solid;
@@ -100,7 +102,7 @@ h1 {
 }
 
 .container:hover {
-    background-color: #022ddc;
+    background-color: #6e5494;
     transition: background-color 0.5s ease;
 }
 
@@ -116,22 +118,22 @@ h1 {
     color: aliceblue;
     font-family: "Satoshi";
     font-size: 65px;
-    position: relative; /* Ensure the pseudo-element is positioned relative to this text */
+    position: relative; 
 }
 
 .containertext::after {
-    content: ''; /* Creates the line */
+    content: ''; 
     position: absolute;
     left: 10px;
-    bottom: -10px; /* Adjust the position of the line */
-    height: 4px; /* Thickness of the line */
-    width: 0; /* Start with no width */
-    background-color: aliceblue; /* Color of the line */
-    transition: width 0.5s ease; /* Smoothly expand the line */
+    bottom: -10px; 
+    height: 4px; 
+    width: 0; 
+    background-color: aliceblue; 
+    transition: width 0.5s ease; 
 }
 
 .containertext:hover::after {
-    width: 100%; /* Line expands fully on hover */
+    width: 100%; 
 }
 
 .containernumber {
@@ -143,80 +145,7 @@ h1 {
     font-size: 65px;
 }
 
-.containertext1 {
-    position: absolute;
-    left: 41px;
-    top: 300px;
-    color: aliceblue;
-    font-family: "Satoshi";
-    font-size: 65px;
-}
-
-/* .container, .container1, .container2, .container3 {
-    position: relative;
-    border: 2px solid aliceblue;
-    height: 100%;
-    width: 400px;
-    background-color: #cacaca;
-}
-
-.container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/images/WIKPIK.png'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    opacity: 0;
-    transition: opacity 1s ease-in;
-    pointer-events: none;
-}
-
-.container:hover::after {
-    opacity: 1;
-}
-
-.container1::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/images/KLEP.png'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    opacity: 0;
-    transition: opacity 1s ease-in;
-    pointer-events: none;
-}
-
-.container1:hover::after {
-    opacity: 1;
-}
-
-.containertext, .containernumber {
-    position: absolute;
-    left: 41px;
-    color: aliceblue;
-    font-family: "Satoshi";
-    font-size: 65px;
-    transition: color 0.3s ease;
-}
-
-.containertext {
-    top: 300px;
-}
-
-.containernumber {
-    top: 100px;
-    color: #022ddc;
-}
+/*-------------------------------------SECOND CONTAINER----------------------------------------------------------- */
 
 .containertext1 {
     position: absolute;
@@ -225,7 +154,10 @@ h1 {
     color: aliceblue;
     font-family: "Satoshi";
     font-size: 65px;
-} */
+}
+
+/*-------------------------------------THIRD CONTAINER----------------------------------------------------------- */
+
 /*-------------------------------------THIRD SECTION----------------------------------------------------------- */
 
 .thirdsection {
@@ -236,6 +168,7 @@ h1 {
     height: 100vh;
     width: 100%;
     position: relative;
+    
 }
 
 .bio {

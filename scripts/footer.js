@@ -28,17 +28,11 @@ window.onload = () => {
     const socialMediaDiv = document.createElement('div');
     socialMediaDiv.style.marginTop = "10px";
     const socialMedias = [
-        { 
-            link: "https://github.com/DanzoLuvsKFC", 
-            imgSrc: "https://danzoluvskfc.github.io/LasContent/images/github.png",  
-            altText: "Github"
-        },
-        { 
-            link: "https://www.linkedin.com/in/mark-daniel-lasco-7ab7ab309/", 
-            imgSrc: "https://danzoluvskfc.github.io/LasContent/images/linkedin.png",  
-            altText: "LinkedIn"
-        }
-        
+        // { 
+        //     link: "https://github.com/DanzoLuvsKFC", 
+        //     imgSrc: "https://danzoluvskfc.github.io/LasContent/images/github.png",  
+        //     altText: "Gmail"
+        // }
         
     ];
 
