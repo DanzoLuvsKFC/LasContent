@@ -17,6 +17,19 @@ body {
 p {
     font-family: "Satoshi";
 }
+/* Initial hidden state */
+.fade-out {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Visible state */
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 /*-------------------------------------NAV----------------------------------------------------------- */
 
