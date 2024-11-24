@@ -247,6 +247,12 @@ h1 {
     background-repeat: no-repeat; */
 }
 
+.tools{
+    position: absolute;
+    left: 395px;
+    top: 555px;
+}
+
 .white-word {
     color: aliceblue;
 }
@@ -260,6 +266,20 @@ h1 {
     top: 275px;
     z-index: 2;
     left: 230px;
+    max-width: 650px;
+    text-align: right;
+    
+}
+
+.autobio1 {
+    position: absolute;
+    font-family: "Satoshi";
+    color: aliceblue;
+    position: absolute;
+    font-size: 19px;
+    top: 550px;
+    z-index: 2;
+    left: 645px;
     max-width: 650px;
     text-align: right;
     
