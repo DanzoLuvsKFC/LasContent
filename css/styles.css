@@ -147,6 +147,24 @@ h1 {
 
 /*-------------------------------------SECOND CONTAINER----------------------------------------------------------- */
 
+.container1 {
+    position: relative;
+    border: aliceblue solid;
+    border-width: 2px;
+    height: 100%;
+    width: 400px;
+}
+
+.container1:hover {
+    background-color: #ff2b4f;
+    transition: background-color 0.5s ease;
+}
+
+.container1:hover .containernumber1 {
+    color: aliceblue;
+    transition: color 0.3s ease,
+}
+
 .containertext1 {
     position: absolute;
     left: 41px;
@@ -154,10 +172,137 @@ h1 {
     color: aliceblue;
     font-family: "Satoshi";
     font-size: 65px;
+    position: relative; 
+}
+
+.containertext1::after {
+    content: ''; 
+    position: absolute;
+    left: 10px;
+    bottom: -10px; 
+    height: 4px; 
+    width: 0; 
+    background-color: aliceblue; 
+    transition: width 0.5s ease; 
+}
+
+.containertext1:hover::after {
+    width: 100%; 
+}
+
+.containernumber1 {
+    position: absolute;
+    left: 41px;
+    top: 100px;
+    color: #022ddc;
+    font-family: "Satoshi";
+    font-size: 65px;
 }
 
 /*-------------------------------------THIRD CONTAINER----------------------------------------------------------- */
+.container2 {
+    position: relative;
+    border: aliceblue solid;
+    border-width: 2px;
+    height: 100%;
+    width: 400px;
+}
 
+.container2:hover {
+    background-color: #fb000f;
+    transition: background-color 0.5s ease;
+}
+
+.container2:hover .containernumber2 {
+    color: aliceblue;
+    transition: color 0.3s ease,
+}
+
+.containertext2 {
+    position: absolute;
+    left: 41px;
+    top: 300px;
+    color: aliceblue;
+    font-family: "Satoshi";
+    font-size: 65px;
+    position: relative; 
+}
+
+.containertext2::after {
+    content: ''; 
+    position: absolute;
+    left: 10px;
+    bottom: -10px; 
+    height: 4px; 
+    width: 0; 
+    background-color: aliceblue; 
+    transition: width 0.5s ease; 
+}
+
+.containertext2:hover::after {
+    width: 100%; 
+}
+
+.containernumber2 {
+    position: absolute;
+    left: 41px;
+    top: 100px;
+    color: #022ddc;
+    font-family: "Satoshi";
+    font-size: 65px;
+}
+/*-------------------------------------THIRD CONTAINER----------------------------------------------------------- */
+.container3 {
+    position: relative;
+    border: aliceblue solid;
+    border-width: 2px;
+    height: 100%;
+    width: 400px;
+}
+
+.container3:hover {
+    background-color: #022ddc;
+    transition: background-color 0.5s ease;
+}
+
+.container3:hover .containernumber3 {
+    color: aliceblue;
+    transition: color 0.3s ease,
+}
+
+.containertext3 {
+    position: absolute;
+    left: 41px;
+    top: 300px;
+    color: aliceblue;
+    font-family: "Satoshi";
+    font-size: 65px;
+    position: relative; 
+}
+
+.containertext3::after {
+    content: ''; 
+    position: absolute;
+    left: 10px;
+    bottom: -10px; 
+    height: 4px; 
+    width: 0; 
+    background-color: aliceblue; 
+    transition: width 0.5s ease; 
+}
+
+.containertext3:hover::after {
+    width: 100%; 
+}
+
+.containernumber3 {
+    position: absolute;
+    left: 41px;
+    top: 100px;
+    color: #022ddc;
+    font-family: "Satoshi";
+    font-size: 65px;
+}
 /*-------------------------------------THIRD SECTION----------------------------------------------------------- */
 
 .thirdsection {
