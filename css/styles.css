@@ -18,6 +18,20 @@ p {
     font-family: "Satoshi";
 }
 
+/* Initial hidden state */
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Extended duration */
+    transition-delay: 0.3s;
+}
+
+/* Visible state */
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /*-------------------------------------NAV----------------------------------------------------------- */
 
 .bottom-left-nav {
